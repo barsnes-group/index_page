@@ -71,7 +71,8 @@ public class Index_UI extends UI {
         leftLabel.setContentMode(ContentMode.HTML);
         leftLabel.setSizeFull();
         leftContainer.addComponent(leftLabel,"left:15px;top:15px");
-        leftLabel.setValue("<font align=\"left\" style=\"color:#ffffff;background-color: #4d749f;border-radius:4px;padding-top: 0px !important;padding-right: 7px !important;padding-left: 7px !important;padding-bottom: 1px;font-weight:bold;text-decoration:none;text-align: -webkit-center;text-align: center !important;\"><font style=\"color:#fffff;font-weight:bold;text-decoration:none;font-size: 16px;text-align: center;\">C</font></font><font align=\"left\" style=\"text-decoration:none;    margin-left: 2px;\"><font align=\"left\" ;=\"\" style=\"margin-left:0px;color:#4d749f;font-weight:bold;text-decoration:none;word-wrap: break-word !important;font-size: 16px; \">SF Proteome Resource</font></font><br/><br/><font style='font-size: 13px;text-align: justify ;'>Mass spectrometrybased proteomics data on human cerebrospinal fluid.</font>");
+        leftLabel.setValue("<font align=\"left\" style=\"color:#ffffff;background-color: #4d749f;border-radius:4px;padding-top: 0px !important;padding-right: 7px !important;padding-left: 7px !important;padding-bottom: 1px;font-weight:bold;text-decoration:none;text-align: -webkit-center;text-align: center !important;\"><font style=\"color:#fffff;font-weight:bold;text-decoration:none;font-size: 16px;text-align: center;\">C</font></font><font align=\"left\" style=\"text-decoration:none;    margin-left: 2px;\"><font align=\"left\" ;=\"\" style=\"margin-left:0px;color:#4d749f;font-weight:bold;text-decoration:none;word-wrap: break-word !important;font-size: 16px; \">SF Proteome Resource</font></font><br/><br/><font style='font-size: 13px;text-align: justify ;'>Online repository of mass spectrometry\n" +
+"based proteomics experiments on human cerebrospinal fluid.</font>");
         
         Label rightLabel = new Label();
         rightLabel.setContentMode(ContentMode.HTML);
@@ -80,7 +81,7 @@ public class Index_UI extends UI {
         rightLabel.setValue("<img class=\"v-image v-widget v-has-height\" src=\"./VAADIN/themes/mytheme/img/peptideshakericon.png\" alt=\"\" style='height: 55px;margin-top: -5px;'><font align=\"left\" style=\"text-decoration:none;    margin-left: 2px;\"><font align=\"left\" ;=\"\" style=\"margin-left:0px;color:#4d749f;font-weight:bold;text-decoration:none;word-wrap: break-word !important;font-size: 16px; \">PeptideShaker Online</font></font><br/><font style='font-size: 13px;text-align: justify ;'>User-friendly web-based framework for the identification of mass spectrometry-based proteomics data.</font>");
         
          rightContainer.addLayoutClickListener((LayoutEvents.LayoutClickEvent event) -> {
-            Page.getCurrent().open("https://githubmemory.com/repo/barsnes-group/peptide-shaker-online", "_blank");
+            Page.getCurrent().open("https://github.com/barsnes-group/peptide-shaker-online", "_blank");
        });
       
     }
